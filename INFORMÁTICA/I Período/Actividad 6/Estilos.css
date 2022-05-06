@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #FF5F6D;
+    background: -webkit-linear-gradient(to right, hsl(35, 100%, 72%, 0.459), hsl(355, 100%, 69%, 0.459));
+    background: linear-gradient(to right, hsl(35, 100%, 72%, 0.459), hsl(355, 100%, 69%, 0.459)), url(../Alain/Fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 50px 30px 0 0;
+}
+
+nav a{
+    color: #fff;
+    font-weight: 300;    
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header section{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+header section h1{
+    font-size: 70px;
+    
+}
+
+header section h2{
+    font-size: 35px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#titulo{
+    padding: 0 0 25px 0;
+    color: #E8AF3D;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.contenido{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    text-align:justify;
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: space-evenly;
+}
+
+#img1{
+    width: 230px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 10%;
+}
+
+.titulos{
+    padding: 20px 0 6px 0;
+    color: #B4872E;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.niveles{
+    padding: 3px;
+}
+
+.item{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(119, 115, 58);
+}
+
+.pa_claves{
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline ;
+    color: rgb(119, 115, 58);
+}
+
+.number{
+    background: #c98827;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 1px 0 6px 1px #c98827;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.name{
+    color: #867253;
+}
+
+.contenido2{
+    margin-left: 45px;
+}
+
+#img2{
+    float: right;
+    width: 300px;
+    height: 500px;
+    padding: 20px 0 0px 10px;
+    border-radius: 10%;
+}
+
+#img3{
+    float: left;
+    width: 220px;
+    height: 145px;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 5%;
+}
+
+aside{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    float: right;
+    border: black 2px dashed;
+    width: 150px;
+    height: 240px;
+    border-radius: 5%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 7px;
+    align-items: center;
+    box-shadow: inset 2px 0 8px 1px #c98827e8, 2px 0 6px 1px Gray;
+    color: rgb(126, 90, 36);
+}
+
+footer{
+    background: burlywood;
+    vertical-align: text-top;
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+}
+
+#nombre h4{
+    margin-left: 450px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#nombre p{
+    margin-left: 400px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#curso h4{
+    margin-left: 400px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#curso p{
+    margin-left: 400px;
+    font-size: 18px;
+    text-align: center;
+}

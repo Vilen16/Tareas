@@ -1,0 +1,133 @@
+html{
+    height: 100;
+}
+body{
+    background: #1F618D;
+}
+table{
+    background: #FFFFFF;
+    margin: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #34495E;
+    border-spacing: 15px;
+    
+}
+#primero{
+    width: 400px;
+    text-align: center;
+    vertical-align: center;
+}
+#foto{
+    border-radius: 100%;
+    width: 230px;
+    height: 250px;
+}
+#perfil{
+    height: 300px;
+    font-size: 20px;
+}
+#np{
+    height: 400px;
+}
+.info{
+    text-align: center;
+}
+#nombre{
+    font-size: 45px; 
+    color: #138D75;
+
+}
+#profesión{
+    font-size: 20px;
+    font-style: italic;
+}
+#exp{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bold;
+    vertical-align: text-top;
+    background: #ddd;
+    color: #444;
+    padding: 10px;
+}
+#experiencia{
+    height: 200px;
+    vertical-align: bottom;
+}
+#experiencia2{
+    height: 250px;
+    vertical-align: text-top;
+}
+#edu{
+    font-size: 23px;
+    font-weight: bold;
+    color: #566573;
+}
+#edu2{
+    font-size: 20px;
+}
+#des{
+    list-style-type: square;
+}
+td{
+    width: 200px;
+    height: 250px;
+    text-align: justify;
+}
+ol{
+    list-style: none;   
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    counter-reset: item 0;
+}
+.exp2{
+    content: counter(item) ".";
+    counter-increment: item 1;
+}
+.exp3{
+    content: counter(item) ".";
+    counter-increment: item 2;
+}
+.exp4{
+    content: counter(item) ".";
+    counter-increment: item 3;
+}
+ol #exp{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    list-style-type: decimal-leading-zero;
+}
+ol #exp:before{
+    content: counter(item) ".";
+    counter-increment: item;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #208B8B;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+ol #exp:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+    left: -.5em;
+    border-left-color: #208B8B;
+}
+span{
+    font-weight: bold;
+    color: #208B89;
+    font-style: italic;
+}

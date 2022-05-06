@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #fff;
+    font-size: 1    6px;
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+#logo{
+    width: 50px;
+}
+
+#menu-left{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+}
+
+#menu-left li{
+    padding: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-left li a{
+    padding: 2px;
+}
+
+#menu-left li a:hover{
+    border-bottom: 2px solid #fff;
+    opacity: .9;
+}
+
+#menu-right{
+    list-style: none;
+}
+
+#menu-right li a{
+    padding: 2px;
+}
+
+
+hr{
+    margin: 10px 0;
+}
+
+header{
+    width: 100%;
+    height: 550px;
+    background: url(../Actividad\ 1/Fondo.jpg) no-repeat center center/cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+header #escondido{
+    display: none;
+}
+
+.button{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+header p{
+    font-size: 18px;
+}
+
+#button:hover{
+    opacity: .7;
+    box-shadow: .5px 0 6px 1px;
+}
+
+.banners{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+#banner_1{
+    background: url(../Actividad\ 1/banner_uno.jpg);
+}
+
+#banner_2{
+    background: url(../Actividad\ 1/Banner_dos.jpg) no-repeat, center center/cover;
+}
+
+#contenido_1{
+    width: 50%;
+    padding: 80px 0 0 30px;
+}
+
+#contenido_2{
+    width: 60%;
+    padding: 60px 0 0 30px;
+}
+
+#contenido_1 h2,
+#contenido_2 h2{
+    margin: 0 0 20px 0;
+}
+
+#contenido_1 p,
+#contenido_2 p{
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+fieldset{
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+legend{
+    font-size: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cards{
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.cards img{
+    width: 100%;
+    height: 180px;
+}
+
+.cards h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.cards a {
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cards a:hover{
+    opacity: .7;
+    text-decoration: underline;
+}
+
+footer{
+    background: #2f3640;
+    font-size: 12px;
+    margin: 50px 0 0 0;
+    padding: 35px 0;
+}
+
+#social{
+    margin: 50px;
+}
+
+#social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.links a{
+    margin: 0 30px;
+}
+  
+.links a i{
+    font-size: 3rem;
+}

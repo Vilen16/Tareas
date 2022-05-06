@@ -1,0 +1,16 @@
+html{
+    height: 100;
+}
+body{
+    background: #154360;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    background: #bebebe;
+    margin: 100px;
+}
